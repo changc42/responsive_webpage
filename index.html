@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resproject</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width">
+    <script src=js/jquery.js></script>
+    <script>
+      var showWidth=1;
+
+      if(showWidth===1){
+        $(document).ready(function(){
+          $(window).resize(function(){
+            console.log("yo mom)")
+            var width= $(window).width();
+            document.getElementById('output_width').innerHTML="Window width:"+width.toString()
+          })
+        })
+      }
+    </script>
+  </head>
+  <body>
+    <div id="output_width"></div>
+    <div id="container">
+      <header class="main-header">
+        <img id="logo" src="images/logo.png" alt="Resproject"/>
+        <nav class="main-nav">
+          <ul>
+            <li><a class ="active" href="#">Home</a></li>
+            <li><a href="#">Learn</a></li>
+            <li><a href="#">Brainstorm</a></li>
+            <li><a href="#">Collaborate</a></li>
+            <li><a href="#">Create</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div id="main">
+        <div id="content">
+          <article class="art1">
+            <header class="art-header">
+              <h2 class="title"><a href="#">First Post</a></h2>
+              <span>Created by: yo mom on october 2017</span>
+            </header>
+            <p>readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes</p>
+            <p>sktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimesreadable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many de</p>
+            <a class="read-more" href="#">Read more</a>
+
+          </article>
+
+          <article class="art2">
+            <header class="art-header">
+              <h2 class="title"><a href="#">Second Post</a></h2>
+              <span>Created by: yo dad on september 2018</span>
+            </header>
+            <p>r since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+            <p>tially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsumr since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essen</p>
+            <a class="read-more" href="#">Read more</a>
+
+          </article>
+        </div>
+        <aside id="sidebar">
+          <div class="block">
+            <h2>Top sidebar</h2>
+            <p>here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which donontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes fr</p>
+          </div>
+          <div class="block">
+            <h2>Mid sidebar</h2>
+            <p>which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeatontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes fr</p>
+          </div>
+          <div class="block">
+            <h2>Bottom sidebar</h2>
+            <p>middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on theontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes fr</p>
+          </div>
+        </aside>
+        <div class="clr"></div>
+        <footer>
+          <p>Copyirght &copy; 2020 Resproject </p>
+        </footer>
+        
+      </div>
+    </div>
+  </body>
+</html>
